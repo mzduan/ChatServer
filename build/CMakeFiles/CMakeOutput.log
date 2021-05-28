@@ -1,0 +1,59 @@
+The system is: Linux - sh: 0: getcwd() failed: No such file or directory
+5.4.0-73-generic - sh: 0: getcwd() failed: No such file or directory
+x86_64
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/duan/Desktop/chatserver/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3404e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3404e.dir/build.make CMakeFiles/cmTC_3404e.dir/build
+make[1]: Entering directory '/home/duan/Desktop/chatserver/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3404e.dir/testCCompiler.c.o
+/usr/bin/x86_64-linux-gnu-gcc-7    -o CMakeFiles/cmTC_3404e.dir/testCCompiler.c.o   -c /home/duan/Desktop/chatserver/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_3404e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3404e.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-gcc-7      CMakeFiles/cmTC_3404e.dir/testCCompiler.c.o  -o cmTC_3404e 
+make[1]: Leaving directory '/home/duan/Desktop/chatserver/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/duan/Desktop/chatserver/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_329e0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_329e0.dir/build.make CMakeFiles/cmTC_329e0.dir/build
+make[1]: Entering directory '/home/duan/Desktop/chatserver/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_329e0.dir/CMakeCCompilerABI.c.o
+/usr/bin/x86_64-linux-gnu-gcc-7    -o CMakeFiles/cmTC_329e0.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_329e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_329e0.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-gcc-7      CMakeFiles/cmTC_329e0.dir/CMakeCCompilerABI.c.o  -o cmTC_329e0 
+make[1]: Leaving directory '/home/duan/Desktop/chatserver/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/duan/Desktop/chatserver/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8950a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8950a.dir/build.make CMakeFiles/cmTC_8950a.dir/build
+make[1]: Entering directory '/home/duan/Desktop/chatserver/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8950a.dir/testCXXCompiler.cxx.o
+/usr/bin/x86_64-linux-gnu-g++-7     -o CMakeFiles/cmTC_8950a.dir/testCXXCompiler.cxx.o -c /home/duan/Desktop/chatserver/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_8950a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8950a.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-g++-7       CMakeFiles/cmTC_8950a.dir/testCXXCompiler.cxx.o  -o cmTC_8950a 
+make[1]: Leaving directory '/home/duan/Desktop/chatserver/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/duan/Desktop/chatserver/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d4587/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d4587.dir/build.make CMakeFiles/cmTC_d4587.dir/build
+make[1]: Entering directory '/home/duan/Desktop/chatserver/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d4587.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/x86_64-linux-gnu-g++-7     -o CMakeFiles/cmTC_d4587.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_d4587
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4587.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-g++-7       CMakeFiles/cmTC_d4587.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d4587 
+make[1]: Leaving directory '/home/duan/Desktop/chatserver/build/CMakeFiles/CMakeTmp'
+
+
